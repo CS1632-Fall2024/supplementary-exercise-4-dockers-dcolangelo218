@@ -43,7 +43,7 @@ public class D3Test {
   @Before
   public void setUp() {
     ChromeOptions options = new ChromeOptions();
-    options.addArguments("--headless=old");			// Enable running without a display
+    options.addArguments("--headless");			// Enable running without a display
     options.addArguments("--disable-notifications");
     options.addArguments("--disable-dev-shm-usage");
     options.addArguments("--no-sandbox");
